@@ -1,20 +1,28 @@
-# traveling_recommendation
-사용자 성격 기반, 사용자 현재 기분 기반, 여행지 테마(성향) 기반 여행지 추천 시스템
+## Destination recommendation API
+- Travel destination recommendation system based on user personality, user current mood, and destination theme (tendency)
 
-- 기술 스택: Anaconda, Python 3.7, Flask, tensorflow, pandas, numpy, Scikit learn, Jupyter, AWS(EC2(Ubuntu), RDS, S3)
+## Techstacks.
+- Anaconda, Python 3.7, Flask, tensorflow, pandas, numpy, Scikit learn, Jupyter, AWS(EC2(Ubuntu), RDS, S3)
 
-## 데이터
-- 여행지 리뷰 텍스트: 비짓 제주 리뷰 텍스트, 트립 어드바이저 리뷰 텍스트 크롤링
-- 개인 성향 데이터: MBTI, 개인 성격에 따른 여행지 만족도 관련 연구 논문 바탕으로 설문지 문항 구성
-- 구글 설문지: 개인 성향 파악을 위한 설문 문항에 대한 5지 선다형 + 개인의 기분에 따른 여행지 선호도
+## Data.
+- **Destination review text**
+   - 'Visit Jeju' review text, 'TripAdvisor' review text crawling
+- **Personal preference data**
+   - Formation of survey items based on research papers related to travel destination satisfaction according to individual characteristics
+- **Google Form** 
+   - Five-choice multiple-choice survey questions to identify personal tendencies + travel destination preference according to individual mood
 
-## 모델 구성
-1. 여행지 리뷰 텍스트 테마 분류
-   - input data:여행지 리뷰 텍스트 
-   - 사용 모델: RNN
-   - output: 레저/체험, 자연, 교육 분류 (by softmax)
-2. 여행지 추천 모델
-    - input data: 개인 성향 설문, 여행지 분류 SOFTMAX DB, 감정 라벨링 데이터
-    - 사용 모델: DNN
-    - output: 여행지 추천 여부
+## Model construction.
+1. **Travel destination review text theme classification**
+   - Input data : Travel destination review text 
+   - Model : RNN
+   - Output : Classification of leisure/experiences, nature, and education (by softmax)
+2. **Travel destination recommendation model**
+    - Input data : Personal tendency questionnaire, travel destination classification Softmax(DB), Personal mood labeling data
+    - Model : DNN
+    - Output : Travel destination recommendation
+
+## Reference.
+- [The Effects of 5 Factors of Traveler's Personality on Psychological Happiness and Travel Experience](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002701039)
+- [Reference material](https://www.youtube.com/watch?v=omzBnL22aBA)
     
