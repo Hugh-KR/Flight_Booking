@@ -2,6 +2,7 @@
 - With us is an airline ticket payment hub & traveler community.
 - It crawls and displays ticket information and links to sites that can be booked directly.
 - Through the Korean travel-based ticket payment hub and community, we open the community only to users who have booked tickets to implement and increase reliability to find companions.
+- The destinations searched by users are stored in real time in the DB and displayed as a ranking.
 - Users can receive personalized travel recommendations through a simple survey.
 
 https://user-images.githubusercontent.com/83931353/230542234-103ed9e4-815d-473f-a5d1-4116bada134a.mp4
