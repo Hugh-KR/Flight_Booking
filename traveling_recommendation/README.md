@@ -2,7 +2,7 @@
 - Travel destination recommendation system based on user personality, user current mood, and destination theme (tendency)
 
 ## Techstacks.
-- Back : Python 3.7, Flask, Anaconda, Tensorflow, Pandas, Numpy, Scikit learn, Jupyter
+- Back : Python 3.7, Flask, Anaconda, Tensorflow, Pandas, Numpy, Scikit learn, Jupyter, Selenium
 - DB : MySQL
 - Tool : AWS(EC2 RDS S3)
 
