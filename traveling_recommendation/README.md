@@ -1,4 +1,4 @@
-## Destination recommendation API
+## 🎒 Destination recommendation API
 - Travel destination recommendation system based on user personality, user current mood, and destination theme (tendency)
 
 ## Techstacks.
