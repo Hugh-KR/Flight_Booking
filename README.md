@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/83931353/230542234-103ed9e4-815d-473f-
 - Tool : AWS(EC2 RDS S3)
 
 ## Process.
-- schedule management : [WBS-based, separation of essential and reserve functions](https://drive.google.com/file/d/1aElHryzbqKWVXP0DG5DhBPOvyz7Lhioj/view)
+- schedule management : WBS-based, separation of essential and reserve functions
 - User-based travel destination recommendation system : [Built on Python 3.7, see here](https://github.com/sds2317884/Flight_Booking/tree/main/traveling_recommendation)
 
 ## Thanks to those who worked together.
