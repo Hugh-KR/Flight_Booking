@@ -2,7 +2,7 @@
 - With Us is an airline ticket payment hub & traveler community.
 - South Korea travel-based, we open the community only to users who have booked tickets to implement and increase reliability to find companions.
 - It crawls and display ticket information, links to direct booking sites, and price change trend.
-- The destinations searched by users are stored in real time in the DB and displayed as a ranking.
+- The destinations searched by users are stored in real time in the MongoDB and displayed as a ranking.
 - Users can receive personalized travel recommendations through a simple survey.
 
 https://user-images.githubusercontent.com/83931353/230542234-103ed9e4-815d-473f-a5d1-4116bada134a.mp4
