@@ -24,6 +24,9 @@
     - Model : DNN
     - Output : Travel destination recommendation
 
+## Update.
+- 23.04.10 : Code optimization
+
 ## Reference.
 - [The Effects of 5 Factors of Traveler's Personality on Psychological Happiness and Travel Experience](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002701039)
 - [Reference material](https://www.youtube.com/watch?v=omzBnL22aBA)
