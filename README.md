@@ -18,9 +18,9 @@ https://user-images.githubusercontent.com/83931353/230542234-103ed9e4-815d-473f-
 - User-based travel destination recommendation system : [Built on Python 3.7, see here](https://github.com/sds2317884/Flight_Booking/tree/main/traveling_recommendation)
 
 ## Thanks to those who worked together.
-신창혁(Team Leader) - Dongseo university<br>
+신창혁(Team Lead) - Dongseo University<br>
 
-권윤제 - Dongseo university<br>
+권윤제 - Dongseo University<br>
 
 김수정 - Pukyong National University<br>
 
