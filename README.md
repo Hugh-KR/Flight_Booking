@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/83931353/230542234-103ed9e4-815d-473f-
 
 ## Techstacks.
 - Back : Java 1.8, Spring3 MVC2, Python 3.7, Flask, Selenium, Anaconda
-- Front : Jsp, CSS
+- Front : Jsp, Bootstrap
 - DB : MySQL, MongoDB
 - Tool : AWS(EC2 RDS S3)
 
